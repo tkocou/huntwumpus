@@ -103,7 +103,7 @@ def move_the_wumpus():
     count = 0
     while True:
         count += 1
-        # create a random list index
+        # create a random index for a list
         random_tunnel = random.randint(0,2)
         # get the list of tunnels based on wumpus location
         possible_tunnels = cave[wumpus]['tunnels']

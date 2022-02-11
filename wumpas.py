@@ -54,8 +54,8 @@ def setup_game():
     bat[2] = get_room_number()
     wumpus = get_room_number()
     player = get_room_number()
-    if debug:
-        print("pit[1]: {}, pit[2]: {}, bat[1]: {}, bat[2]: {}, wumpus: {}, player: {}".format(pit[1],pit[2],bat[1],bat[2],wumpus,player))
+    #if debug:
+    #    print("pit[1]: {}, pit[2]: {}, bat[1]: {}, bat[2]: {}, wumpus: {}, player: {}".format(pit[1],pit[2],bat[1],bat[2],wumpus,player))
     arrows = 5
 
 def you_died(condition):

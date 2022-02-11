@@ -8,3 +8,5 @@ In Linux (and maybe MacOS), open a terminal window and enter "python3 wumpus.py"
 In Windows (after you install Pythom 3.x), open a PowerShell or Windows Terminal and enter "py wumpus.py"
 
 Kind of a "Blast from the Past" game.
+
+In this version, you will find that hunting the wumpus is a lot harder than in the original game.

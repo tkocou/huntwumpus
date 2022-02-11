@@ -1,5 +1,5 @@
 # huntwumpus
-A Python re-coding of the original Hunt The Wumpus written in Basic
+A Python re-coding of the original Hunt The Wumpus game written in Basic
 
 Like the original program, this Python 3 version is a text based game.
 

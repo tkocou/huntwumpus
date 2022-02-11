@@ -13,8 +13,8 @@ cave = {1: {'tunnels':[2,3,4], 'selected':False}, 2: {'tunnels':[1,5,6], 'select
         7: {'tunnels':[3,6,13],'selected':False}, 8: {'tunnels':[3,10,14],'selected':False}, 9: {'tunnels':[4,5,15],'selected':False}, 
         10: {'tunnels':[4,8,16],'selected':False}, 11: {'tunnels':[5,12,17],'selected':False}, 12: {'tunnels':[6,11,18],'selected':False}, 
         13: {'tunnels':[7,14,18],'selected':False}, 14: {'tunnels':[8,13,19],'selected':False}, 15: {'tunnels':[9,16,17],'selected':False}, 
-        16: {'tunnels':[10,15,19],'selected':False}, 17: {'tunnels':[11,20,15],'selected':False}, 18: {'tunnels':[12,13,20],'selected':False}, 
-		19: {'tunnels':[14,16,20],'selected':False}, 20: {'tunnels':[17,18,19],'selected':False}
+        16: {'tunnels':[10,15,19],'selected':False}, 17: {'tunnels':[11,20,15],'selected':False}, 18: {'tunnels':[12,13,20],'selected':False},
+        19: {'tunnels':[14,16,20],'selected':False}, 20: {'tunnels':[17,18,19],'selected':False}
         }
 
 ## There is no room # 0, assign room 0 to all 
@@ -121,8 +121,8 @@ def move_the_wumpus():
             cave[selected_room]['selected'] = True
             cave[wumpus]['selected'] = False
             wumpus = selected_room
-            if debug:
-                print("wumpus is now at {}".format(wumpus))
+            #if debug:
+            #    print("wumpus is now at {}".format(wumpus))
             return
         if count > 20:
             # wumpus does not have a clear room to move to

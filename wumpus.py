@@ -135,7 +135,7 @@ def move_the_wumpus():
     return
 
 def game_loop():
-    global player, wumpus, arrows, cave, debug
+    global player, wumpus, arrows, cave #, debug
     setup_game()
     bad_room = True
     while True:

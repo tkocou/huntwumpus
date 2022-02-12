@@ -175,7 +175,7 @@ def game_loop():
         print("Tunnels lead to {}; {}; and {}.".format(vt[0],vt[1],vt[2]))
         print("You have {} arrows.".format(arrows))
         move_wumpus = random.random()
-        if move_wumpus < 0.25 :
+        if move_wumpus < 0.2 :
             move_the_wumpus()
             continue
         choice = input("M)ove, S)hoot or Q)uit? ")

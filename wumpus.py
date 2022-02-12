@@ -47,7 +47,6 @@ def get_room_number():
 
 def setup_game():
     global player, wumpus, arrows
-    #random.seed()
     pit[1] = get_room_number()
     pit[2] = get_room_number()
     bat[1] = get_room_number()

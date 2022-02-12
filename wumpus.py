@@ -189,7 +189,10 @@ def game_loop():
             #debug = not(debug)
             #continue
         if choice.upper() == 'M' or choice.upper() == 'S':
-            selected_room = int(input("Which room? "))
+            try:
+                selected_room = int(input("Which room? "))
+            except:
+                continue
             bad_room == True
             for tunnel in visible_tunnels:
                 if tunnel == selected_room:

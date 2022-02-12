@@ -47,7 +47,7 @@ def get_room_number():
 
 def setup_game():
     global player, wumpus, arrows
-    random.seed()
+    #random.seed()
     pit[1] = get_room_number()
     pit[2] = get_room_number()
     bat[1] = get_room_number()
@@ -87,6 +87,7 @@ def banner():
     choice = input("Do you want to hunt the big, smelly wumpus? (Y/N)?")
     if isinstance(choice, str):
         if choice.upper() == 'Y':
+            random.seed()
             print()
             return
         else:

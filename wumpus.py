@@ -192,6 +192,7 @@ def game_loop():
             try:
                 selected_room = int(input("Which room? "))
             except:
+                print("Need a room number.")
                 continue
             bad_room == True
             for tunnel in visible_tunnels:

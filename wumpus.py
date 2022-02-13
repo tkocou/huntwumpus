@@ -88,6 +88,7 @@ def banner():
         if choice.upper() == 'Y':
             random.seed()
             print()
+            print("======")
             print("The wumpus can move on its own from time to time.")
             print("If you happen to be in the next room over...")
             print("and the wumpus happens to head your way, you get eaten.")
@@ -100,6 +101,7 @@ def banner():
             print("If you walk into a room with a deep pit, you slip, fall and die.")
             print()
             print("Good luck hunting the wumpus.")
+            print("======")
             print()
             print()
             return
